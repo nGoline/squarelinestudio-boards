@@ -15,11 +15,22 @@ This repository provides configurations for several ESP32 display boards that ca
 
 ```
 /boards/CYD/esp32_3248s035C/v1_0_0/
+/boards/CYD/esp32_3248s035C/v2_0_0/
 /boards/CYD/esp32_4827s043C/v1_0_0/
+/boards/CYD/esp32_4827s043C/v2_0_0/
 /boards/CYD/esp32_8048s043C/v1_0_0/
+/boards/CYD/esp32_8048s043C/v2_0_0/
 ```
 
 3. **Restart SquareLine Studio** if it was open during the file copy.
+
+## Board Versions
+
+Included are two board versions:
+- v1.0.0
+- v2.0.0
+
+The difference is that `v1.0.0` uses LVGL `v8.*.*` and `v2.0.0` uses LVGL `v9.*.*`.
 
 ## Demo
 
